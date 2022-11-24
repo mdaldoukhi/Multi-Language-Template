@@ -5,7 +5,7 @@ React Native Developers will find a good structure file, which will be easy to u
 two different files in i18n, which contain the resources of words in Arabic and English 
 when Developer need to use, you have to call useTranslation from react-i18next.
 
-#Steps Before Running the repo:
+# Steps Before Running the repo:
 1- yarn 
   * To download all Packges that need on the repo
   * Make sure you have to install CocoaPods
@@ -15,23 +15,23 @@ when Developer need to use, you have to call useTranslation from react-i18next.
   * pod install
   * cd ..
 
-#Running on IOS deveics:
+# Running on IOS deveics:
 - yarn ios
 
-#Running on Android devices:
+# Running on Android devices:
 - yarn android
 
-#Notes:
+# Notes:
 - Application will restart when select the language because react native need to be restart to change the layout from LTR to RTL.
 
-#Future Plan
+# Future Plan
 - Will use a custom font in expo-font
 - will use a theme in Dark mode and Light mode
 - Will use a splash screen when restating the application 
 - Will use a local api with TanStack Query [Fetch, Post and update]
 
-#Update dependencies in package.json to latest versions:
+# Update dependencies in package.json to latest versions:
 - yarn upgrade-interactive --latest
 
-#Contact
+# Contact
 Please inform me if there is any question or there is a sample way to use this repo
