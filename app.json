@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "multi-languages-template",
+    "slug": "multi-languages-template",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
