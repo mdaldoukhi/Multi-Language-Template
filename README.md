@@ -1,6 +1,7 @@
 # Multi-Language-Template
 
 This Repo to help react native developers to get fast implement on multi languages
+
 React Native Developers will find a good structure file, which will be easy to understand each file, the navigation that used on this repo is only Stack
 two different files in i18n, which contain the resources of words in Arabic and English 
 when Developer need to use, you have to call useTranslation from react-i18next.
@@ -10,7 +11,7 @@ when Developer need to use, you have to call useTranslation from react-i18next.
   * To download all Packges that need on the repo
   * Make sure you have to install CocoaPods
   
-2- Either npx pod-install ios or 
+2- Either npx pod-install ios or:
   * cd ios
   * pod install
   * cd ..
