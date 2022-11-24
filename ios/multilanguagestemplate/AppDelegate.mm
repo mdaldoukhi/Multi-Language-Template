@@ -5,6 +5,7 @@
 #import <React/RCTRootView.h>
 #import <React/RCTLinkingManager.h>
 #import <React/RCTConvert.h>
+#import <React/RCTI18nUtil.h>
 
 #import <React/RCTAppSetupUtils.h>
 
@@ -54,6 +55,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+  [[RCTI18nUtil sharedInstance] allowRTL:YES];
 
   [super application:application didFinishLaunchingWithOptions:launchOptions];
 
