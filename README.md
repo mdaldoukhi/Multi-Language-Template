@@ -4,9 +4,9 @@ This Repo to help react native developers to get fast implement on multi languag
 
 React Native Developers will find a good structure file, which will be easy to understand each file, the navigation that used on this repo is only Stack
 
-two different files in i18n, which contain the resources of words in Arabic and English 
+Two different files in i18n, which contain the resources of words in Arabic and English 
 
-when Developer need to use the translation, you have to call useTranslation from react-i18next.
+When Developer need to use the translation, you have to call useTranslation from react-i18next.
 
 # Steps Before Running the repo:
 1- yarn 
